@@ -1,12 +1,15 @@
-import Link from "next/link";
+import SongSelection from "@/components/SongSelection";
+import TranslatedLyrics from "@/components/TranslatedLyrics";
+import Page2Nav from "@/components/Page2Nav";
+
 
 // `app/guess/page.tsx` is the UI for the `/guess` URL
 export default function Page() {
   return (
     <>
-      <h1>Hello, Guess Page!</h1>
-      <Link href="/guess">Guess again</Link>
-      <Link href="/">New songs</Link>
+      <SongSelection />
+      <TranslatedLyrics />
+      <Page2Nav />
     </>
   );
 }
