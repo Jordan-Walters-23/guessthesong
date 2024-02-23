@@ -1,11 +1,13 @@
-import Link from "next/link";
+import { EnterSong, Page1Nav, SelectLanguage } from "@/components";
+
 
 // `app/choose/page.tsx` is the UI for the `/choose` URL
 export default function Page() {
   return (
     <>
-      <h1>Hello, Choose Page!</h1>
-      <Link href="/guess">Play</Link>
+      <SelectLanguage />
+      <EnterSong />
+      <Page1Nav /> 
     </>
   );
 }
