@@ -1,4 +1,4 @@
-import { EnterSong, Page1Nav, SelectLanguage } from "@/components";
+import { SelectLanguage, EnterSong, Page1Nav } from "@/components";
 
 
 // `app/choose/page.tsx` is the UI for the `/choose` URL
