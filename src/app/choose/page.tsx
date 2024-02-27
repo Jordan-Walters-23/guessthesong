@@ -1,5 +1,4 @@
-import { SelectLanguage, EnterSong, Page1Nav } from "@/components";
-
+import { SelectLanguage, EnterSong, Page1Nav } from '@/components'
 
 // `app/choose/page.tsx` is the UI for the `/choose` URL
 export default function Page() {
@@ -7,7 +6,7 @@ export default function Page() {
     <>
       <SelectLanguage />
       <EnterSong />
-      <Page1Nav /> 
+      <Page1Nav />
     </>
-  );
+  )
 }
