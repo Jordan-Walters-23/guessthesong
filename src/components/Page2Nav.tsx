@@ -4,7 +4,7 @@ import Link from "next/link";
 function Page2Nav() {
   return (
     <>
-      <button type="reset">Reset form</button>
+      <button type="reset">Guess again</button>
       <Link href="/">New songs</Link>
     </>
   );

@@ -14,7 +14,7 @@ function SongSelection() {
           value="Song2"
           defaultChecked={true}
         />{" "}
-        Option 2
+        Song 2
       </label>
       <label>
         <input type="radio" name="myRadio" value="Song3" /> Song 3
