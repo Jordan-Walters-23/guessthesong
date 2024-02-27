@@ -1,10 +1,7 @@
-"use client";
-import React from "react";
-import Link from "next/link";
+import React from 'react'
+import Link from 'next/link'
 
-const Welcome = () => {
-  const handleScroll = () => {};
-
+function Welcome() {
   return (
     <>
       <h1>
@@ -12,9 +9,9 @@ const Welcome = () => {
         <br />
         Guess the Song
       </h1>
-      <Link href="/choose">Enter</Link>
+      <Link href='/choose'>Enter</Link>
     </>
-  );
-};
+  )
+}
 
-export default Welcome;
+export default Welcome
