@@ -3,10 +3,12 @@ import React from 'react'
 function EnterSong() {
   return (
     <>
-    <h2>Add your songs...</h2>
-    <input name="myInput" defaultValue="Artist..." />
-    <input name="myInput" defaultValue="Song..." />
-    <input name="myInput" defaultValue="Lyrics.." />
+      <h2>Add your songs...</h2>
+      <div className='grid place-item-center w-5/6 p-5 rounded-3xl bg-teal-600'>
+        <input className='bg-teal-600' name="myInput" defaultValue="Artist..." />
+        <input className='bg-teal-600' name="myInput" defaultValue="Song..." />
+        <input className='bg-teal-600' name="myInput" defaultValue="Lyrics.." />
+      </div>
     </>
   )
 }
