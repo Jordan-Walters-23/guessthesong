@@ -4,7 +4,7 @@ import Footer from './Footer'
 import SelectLanguage from './SelectLanguage'
 import EnterSong from './EnterSong'
 import Page1Nav from './Page1Nav'
-import SongSelection from './SongSelection'
+import GuessSong from './GuessSong'
 import TranslatedLyrics from './TranslatedLyrics'
 import Page2Nav from './Page2Nav'
 
@@ -15,7 +15,7 @@ export {
   SelectLanguage,
   EnterSong,
   Page1Nav,
-  SongSelection,
+  GuessSong,
   TranslatedLyrics,
   Page2Nav
 }

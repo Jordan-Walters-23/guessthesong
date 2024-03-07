@@ -1,4 +1,4 @@
-import { SongSelection, TranslatedLyrics, Page2Nav } from "@/components";
+import { GuessSong, TranslatedLyrics, Page2Nav } from "@/components";
 
 
 
@@ -6,7 +6,7 @@ import { SongSelection, TranslatedLyrics, Page2Nav } from "@/components";
 export default function Page() {
   return (
     <div className="h-screen grid place-item-center bg-gradient-to-b from-teal-600 to-teal-950">
-      <SongSelection />
+      <GuessSong />
       <TranslatedLyrics />
       <Page2Nav />
     </div>
