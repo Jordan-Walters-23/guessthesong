@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Welcome() {
   return (
-    <div className='flex flex-wrap content-center'>
+    <div className=' mx-auto flex flex-wrap content-center'>
       <h1>
         Welcome to
         <br />

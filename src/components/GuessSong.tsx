@@ -4,8 +4,8 @@ function GuessSong() {
   return (
     <>
       <h1>Have a guess</h1>
-      <div>
-        <label className='h-24 w-1/3 m-2 rounded-full bg-teal-100 px-4 py-2 text-black hover:bg-emerald-100'
+      <div className='mx-auto pt-8 pb-6 flex justify-between items-end'>
+        <label className='text-2xl'
         >
           <input type='radio' name='myRadio' value='Song1' />
           Song 1
