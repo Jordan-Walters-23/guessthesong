@@ -7,6 +7,7 @@ import Page1Nav from './Page1Nav'
 import GuessSong from './GuessSong'
 import TranslatedLyrics from './TranslatedLyrics'
 import Page2Nav from './Page2Nav'
+import Radio from './Radio'
 
 export {
   Header,
@@ -16,6 +17,7 @@ export {
   EnterSong,
   Page1Nav,
   GuessSong,
+  Radio,
   TranslatedLyrics,
   Page2Nav
 }
