@@ -2,9 +2,9 @@ import React from 'react'
 
 function TranslatedLyrics() {
   return (
-    <div>
-      TranslatedLyrics<br/>
-      <button>
+    <div className='flex flex-col items-center justify-center'>
+      TranslatedLyrics
+      <button className=''>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'

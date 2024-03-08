@@ -5,7 +5,7 @@ function GuessSong() {
     <>
       <h1>Have a guess</h1>
       <div className='mx-auto pt-8 pb-6 flex justify-between items-end'>
-        <label className='text-2xl'
+        <label className=''
         >
           <input type='radio' name='myRadio' value='Song1' />
           Song 1
