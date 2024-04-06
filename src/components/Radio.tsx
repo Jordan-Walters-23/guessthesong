@@ -17,7 +17,7 @@ const RadioContext = createContext<{
   onChange: (value: string) => void
 } | null>(null)
 
-function Radio({ value, children }: RadioPropsRadioGroupProps) {
+function Radio({ value, children }: RadioGroupProps) {
   const { value: contextValue, onChange: contextOnChange } = useContext(
     RadioContext
   ) || { value: '', onChange: () => {} }
